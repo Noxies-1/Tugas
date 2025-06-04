@@ -40,44 +40,44 @@
     <div class="container">
         <h2>Coba suasana yang beda, cek rumah liburan di Agoda!</h2>
         <div class="tabs">
-            <div class="tab active"><a href="index.html">Jakarta</a></div>
-            <div class="tab"><a href="bandung.html">Bandung</a></div>
-            <div class="tab"><a href="yogyakarta.html">Yogyakarta</a></div>
-            <div class="tab"><a href="surabaya.html">Surabaya</a></div>
-            <div class="tab"><a href="bali.html">Bali</a></div>
+            <div class="tab active"><a href="index.php">Jakarta</a></div>
+            <div class="tab"><a href="bandung.php">Bandung</a></div>
+            <div class="tab"><a href="yogyakarta.php">Yogyakarta</a></div>
+            <div class="tab"><a href="surabaya.php">Surabaya</a></div>
+            <div class="tab"><a href="bali.php">Bali</a></div>
         </div>
         <div class="hotel-list">
             <div class="hotel-card">
-                <img src="../../assets/img/The Samirono.jpg" alt="Hotel 1">
+                <img src="../../assets/img/The dewi bedugul.jpg" alt="Hotel 1">
                 <div class="hotel-info">
-                    <h3>The Samirono</h3>
+                    <h3>The Dewi Bedugul</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Depok, Yogyakarta</span>
+                    <span class="text-location">Bedugul, Bali</span>
                     </div>
-                    <p class="price">IDR 263,844</p>
+                    <p class="price">IDR 420,214</p>
                 </div>
             </div>
             <div class="hotel-card">
-                <img src="../../assets/img/The Cabin.jpg" alt="Hotel 2">
+                <img src="../../assets/img/Bestah Coliving.jpg" alt="Hotel 2">
                 <div class="hotel-info">
-                    <h3>The Cabin Apartement Uttara</h3>
+                    <h3>Bestah Coliving</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Ngaglik, Yogyakarta</span>
+                    <span class="text-location">Denpasar, Bali</span>
                     </div>
-                    <p class="price">IDR 328,090</p>
+                    <p class="price">IDR 324,362</p>
                 </div>
             </div>
             <div class="hotel-card">
-                <img src="../../assets/img/Vins Room.jpg" alt="Hotel 3">
+                <img src="../../assets/img/The Hita Apartement.jpg" alt="Hotel 3">
                 <div class="hotel-info">
-                    <h3>Vin's Room at Vivo Apartement</h3>
+                    <h3>The Hita Apartement</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Depok, Yogyakarta</span>
+                    <span class="text-location">Seminyak, Bali</span>
                     </div>
-                    <p class="price">IDR 119,906</p>
+                    <p class="price">IDR 234,022</p>
                 </div>
             </div>
         </div>

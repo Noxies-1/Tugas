@@ -40,44 +40,44 @@
     <div class="container">
         <h2>Coba suasana yang beda, cek rumah liburan di Agoda!</h2>
         <div class="tabs">
-            <div class="tab active"><a href="index.html">Jakarta</a></div>
-            <div class="tab"><a href="bandung.html">Bandung</a></div>
-            <div class="tab"><a href="yogyakarta.html">Yogyakarta</a></div>
-            <div class="tab"><a href="surabaya.html">Surabaya</a></div>
-            <div class="tab"><a href="bali.html">Bali</a></div>
+            <div class="tab active"><a href="index.php">Jakarta</a></div>
+            <div class="tab"><a href="bandung.php">Bandung</a></div>
+            <div class="tab"><a href="yogyakarta.php">Yogyakarta</a></div>
+            <div class="tab"><a href="surabaya.php">Surabaya</a></div>
+            <div class="tab"><a href="bali.php">Bali</a></div>
         </div>
         <div class="hotel-list">
             <div class="hotel-card">
-                <img src="../../assets/img/The dewi bedugul.jpg" alt="Hotel 1">
+                <img src="../../assets/img/Bobopod juanda jakarta.jpg" alt="Hotel 1">
                 <div class="hotel-info">
-                    <h3>The Dewi Bedugul</h3>
+                    <h3>Bobopod Juanda, Jakarta</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Bedugul, Bali</span>
+                    <span class="text-location">Pasar Baru, Jakarta</span>
                     </div>
-                    <p class="price">IDR 420,214</p>
+                    <p class="price">IDR 158,162</p>
                 </div>
             </div>
             <div class="hotel-card">
-                <img src="../../assets/img/Bestah Coliving.jpg" alt="Hotel 2">
+                <img src="../../assets/img/Bobopod Tanah Abang jakarta.jpg" alt="Hotel 2">
                 <div class="hotel-info">
-                    <h3>Bestah Coliving</h3>
+                    <h3>Bobopod Tanah Abang, Jakarta</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Denpasar, Bali</span>
+                    <span class="text-location">Monas, Jakarta</span>
                     </div>
-                    <p class="price">IDR 324,362</p>
+                    <p class="price">IDR 129,862</p>
                 </div>
             </div>
             <div class="hotel-card">
-                <img src="../../assets/img/The Hita Apartement.jpg" alt="Hotel 3">
+                <img src="../../assets/img/Andara Home Setiabudi.jpg" alt="Hotel 3">
                 <div class="hotel-info">
-                    <h3>The Hita Apartement</h3>
+                    <h3>Andara Home Setiabudi</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Seminyak, Bali</span>
+                    <span class="text-location">Kuningan, Jakarta</span>
                     </div>
-                    <p class="price">IDR 234,022</p>
+                    <p class="price">IDR 281,395</p>
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@
             <div class="footer-section">
                 <h3>Tentang Traveloka</h3>
                 <ul>
-                    <li><a href="#">Cara Pesan</a></li>
+                    <li><a href="carapesan/tiket-pesawat.php">Cara Pesan</a></li>
                     <li><a href="#">Hubungi Kami</a></li>
                     <li><a href="#">Pusat Bantuan</a></li>
                     <li><a href="#">Karier</a></li>

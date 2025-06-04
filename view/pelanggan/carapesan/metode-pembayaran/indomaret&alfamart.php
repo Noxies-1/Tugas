@@ -285,7 +285,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h2><a href="../../index.html" style="text-decoration: none; color: #00A8E8;">Traveloka</a></h2>
+                <h2><a href="../../../../view/pelanggan/index.php" style="text-decoration: none; color: #00A8E8;">Traveloka</a></h2>
                 <button class="partner-btn">Jadi Partner Traveloka</button>
                 <div class="payment-partners">
                     <img src="../../../../assets/img/Visa.jpg" alt="Visa">

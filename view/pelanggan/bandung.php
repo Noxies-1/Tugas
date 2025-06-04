@@ -12,7 +12,7 @@
         text-decoration: none;
         color: white;
     }
-    .icon-location {
+        .icon-location {
     color: #000000;
     margin-right: 4px;
     }
@@ -40,45 +40,46 @@
     <div class="container">
         <h2>Coba suasana yang beda, cek rumah liburan di Agoda!</h2>
         <div class="tabs">
-            <div class="tab active"><a href="index.html">Jakarta</a></div>
-            <div class="tab"><a href="bandung.html">Bandung</a></div>
-            <div class="tab"><a href="yogyakarta.html">Yogyakarta</a></div>
-            <div class="tab"><a href="surabaya.html">Surabaya</a></div>
-            <div class="tab"><a href="bali.html">Bali</a></div>
+            <div class="tab active"><a href="index.php">Jakarta</a></div>
+            <div class="tab"><a href="bandung.php">Bandung</a></div>
+            <div class="tab"><a href="yogyakarta.php">Yogyakarta</a></div>
+            <div class="tab"><a href="surabaya.php">Surabaya</a></div>
+            <div class="tab"><a href="bali.php">Bali</a></div>
         </div>
         <div class="hotel-list">
             <div class="hotel-card">
-                <img src="../../assets/img/Hotel Andita Syariah.jpg" alt="Hotel 1">
+                <img src="../../assets/img/Parahyangan residence.jpg" alt="Hotel 1">
                 <div class="hotel-info">
-                    <h3>Hotel Andita Syariah</h3>
+                    <h3>Parahyangan Residences</h3>
+                    <h3>by AYA Stasys</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Dukuh Pakis, Surabaya</span>
+                    <span class="text-location">Ciumbuleuit, Bandung</span>
                     </div>
-                    <p class="price">IDR 168,204</p>
+                    <p class="price">IDR 308,509</p>
                 </div>
             </div>
             <div class="hotel-card">
-                <img src="../../assets/img/Sunshine Family.jpg" alt="Hotel 2">
+                <img src="../../assets/img/Jarrdin Cihampelas.jpg" alt="Hotel 2">
                 <div class="hotel-info">
-                    <h3>Sunshine Family Homestay</h3>
-                    <h3>near Terminal 1 Juanda Airport</h3>
+                    <h3>The Jarrdin Apartement Hotels</h3>
+                    <h3>By Ironman</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Waru, Surabaya</span>
+                    <span class="text-location">Cihampelas, Bandung</span>
                     </div>
-                    <p class="price">IDR 189,179</p>
+                    <p class="price">IDR 164,296</p>
                 </div>
             </div>
             <div class="hotel-card">
-                <img src="../../assets/img/Bloomington.jpg" alt="Hotel 3">
+                <img src="../../assets/img/Lembang Asri Resort.jpg" alt="Hotel 3">
                 <div class="hotel-info">
-                    <h3>Bloomington Syariah</h3>
+                    <h3>Lembang Asri Resort</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Surabaya Center, Surabaya</span>
+                    <span class="text-location">Lembang, Bandung</span>
                     </div>
-                    <p class="price">IDR 105,335</p>
+                    <p class="price">IDR 625,560</p>
                 </div>
             </div>
         </div>

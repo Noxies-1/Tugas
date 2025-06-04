@@ -40,46 +40,44 @@
     <div class="container">
         <h2>Coba suasana yang beda, cek rumah liburan di Agoda!</h2>
         <div class="tabs">
-            <div class="tab active"><a href="index.html">Jakarta</a></div>
-            <div class="tab"><a href="bandung.html">Bandung</a></div>
-            <div class="tab"><a href="yogyakarta.html">Yogyakarta</a></div>
-            <div class="tab"><a href="surabaya.html">Surabaya</a></div>
-            <div class="tab"><a href="bali.html">Bali</a></div>
+            <div class="tab active"><a href="index.php">Jakarta</a></div>
+            <div class="tab"><a href="bandung.php">Bandung</a></div>
+            <div class="tab"><a href="yogyakarta.php">Yogyakarta</a></div>
+            <div class="tab"><a href="surabaya.php">Surabaya</a></div>
+            <div class="tab"><a href="bali.php">Bali</a></div>
         </div>
         <div class="hotel-list">
             <div class="hotel-card">
-                <img src="../../assets/img/Parahyangan residence.jpg" alt="Hotel 1">
+                <img src="../../assets/img/The Samirono.jpg" alt="Hotel 1">
                 <div class="hotel-info">
-                    <h3>Parahyangan Residences</h3>
-                    <h3>by AYA Stasys</h3>
+                    <h3>The Samirono</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Ciumbuleuit, Bandung</span>
+                    <span class="text-location">Depok, Yogyakarta</span>
                     </div>
-                    <p class="price">IDR 308,509</p>
+                    <p class="price">IDR 263,844</p>
                 </div>
             </div>
             <div class="hotel-card">
-                <img src="../../assets/img/Jarrdin Cihampelas.jpg" alt="Hotel 2">
+                <img src="../../assets/img/The Cabin.jpg" alt="Hotel 2">
                 <div class="hotel-info">
-                    <h3>The Jarrdin Apartement Hotels</h3>
-                    <h3>By Ironman</h3>
+                    <h3>The Cabin Apartement Uttara</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Cihampelas, Bandung</span>
+                    <span class="text-location">Ngaglik, Yogyakarta</span>
                     </div>
-                    <p class="price">IDR 164,296</p>
+                    <p class="price">IDR 328,090</p>
                 </div>
             </div>
             <div class="hotel-card">
-                <img src="../../assets/img/Lembang Asri Resort.jpg" alt="Hotel 3">
+                <img src="../../assets/img/Vins Room.jpg" alt="Hotel 3">
                 <div class="hotel-info">
-                    <h3>Lembang Asri Resort</h3>
+                    <h3>Vin's Room at Vivo Apartement</h3>
                     <div class="location-info">
                     <i class="fa-solid fa-location-dot icon-location"></i>
-                    <span class="text-location">Lembang, Bandung</span>
+                    <span class="text-location">Depok, Yogyakarta</span>
                     </div>
-                    <p class="price">IDR 625,560</p>
+                    <p class="price">IDR 119,906</p>
                 </div>
             </div>
         </div>
