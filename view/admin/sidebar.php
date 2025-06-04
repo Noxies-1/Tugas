@@ -1,11 +1,7 @@
 <?php
-session_start();
-if (!isset($_SESSION['admin'])) {
-    header("Location: login.php");
-    exit;
-}
-include '../../config/Connection.php';
+include __DIR__ . '/../../config/Connection.php';
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,27 +28,28 @@ include '../../config/Connection.php';
 </head>
 <body>
   <div class="sidebar">
-    <h2>Menu</h2>
+  <h2>Menu</h2>
 
-    <a href="hotel/hotel.php">
-      <i class="fa-solid fa-hotel icon-hotel"></i> Hotel
-    </a>
+  <a href="/Tubes_pwd/view/admin/hotel/hotel.php">
+    <i class="fa-solid fa-hotel icon-hotel"></i> Hotel
+  </a>
 
-    <a href="../admin/pesawat/pesawat.php">
-      <i class="fa-solid fa-plane icon-plane"></i> Pesawat
-    </a>
+  <a href="/Tubes_pwd/view/admin/pesawat/pesawat.php">
+    <i class="fa-solid fa-plane icon-plane"></i> Pesawat
+  </a>
 
-    <a href="../admin/kereta api/kereta.php">
-      <i class="fa-solid fa-train icon-train"></i> Kereta Api
-    </a>
+  <a href="/Tubes_pwd/view/admin/kereta/kereta.php">
+    <i class="fa-solid fa-train icon-train"></i> Kereta Api
+  </a>
 
-    <a href="../admin/bus/bus.php">
-      <i class="fa-solid fa-bus icon-bus"></i> Bus
-    </a>
+  <a href="/Tubes_pwd/view/admin/bus/bus.php">
+    <i class="fa-solid fa-bus icon-bus"></i> Bus
+  </a>
 
-    <a href="../../controllers/admin/logout.php" class="logout">
-      <i class="fa-solid fa-right-from-bracket icon-logout"></i> Logout
-    </a>
-  </div>
+  <a href="/Tubes_pwd/controllers/admin/logout.php" class="logout">
+    <i class="fa-solid fa-right-from-bracket icon-logout"></i> Logout
+  </a>
+</div>
+
 </body>
 </html>

@@ -17,8 +17,8 @@ if ($query) {
     if (file_exists($path)) {
         unlink($path);
     }
-    echo "<script>alert('Produk berhasil dihapus!'); window.location='../../../view/admin/dashboard.php';</script>";
+    echo "<script>alert('Produk berhasil dihapus!'); window.location='../../../view/admin/hotel/hotel.php';</script>";
 } else {
-    echo "<script>alert('Gagal menghapus produk.'); window.location='../../../view/admin/dashboard.php';</script>";
+    echo "<script>alert('Gagal menghapus produk.'); window.location='../../../view/admin/hotel/hotel.php';</script>";
 }
 ?>

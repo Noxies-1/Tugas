@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../../config/Connection.php';
+include '../../../config/Connection.php';
 $id             = $_POST['id'];
 $nama           = mysqli_real_escape_string($conn, $_POST['nama_hotel']);
 $deskripsi      = mysqli_real_escape_string($conn, $_POST['deskripsi']);

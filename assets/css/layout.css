@@ -42,7 +42,7 @@ body {
     border: none;
 }
 .btn-outline {
-    background: white;
+    background: blue;
     color: black;
 }
 .btn-primary {
@@ -68,8 +68,7 @@ h2 {
     cursor: pointer;
 }
 .tab.active {
-    color: blue;
-    border-bottom: 2px solid blue;
+    color: white;
 }
 .hotel-list {
     display: flex;

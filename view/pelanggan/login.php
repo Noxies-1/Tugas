@@ -7,7 +7,7 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
-  <link rel="stylesheet" href="../../assets/css/style.css"> 
+  <link rel="stylesheet" href="../../assets/css/admin-style.css"> 
 <body class="login-body">
   <div class="login-container">
     <h2>Sign In to Your Account</h2>

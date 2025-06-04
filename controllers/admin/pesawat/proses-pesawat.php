@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../../config/Connection.php';
+include '../../../config/Connection.php';
 
 // Validasi input
 if (empty($_POST['nama_hotel']) || empty($_POST['alamat']) || empty($_POST['harga'])) {
@@ -20,12 +20,12 @@ $harga                  = (float)$_POST['harga'];
 
 $gambar = $_FILES['gambar']['name'];
 $tmp = $_FILES['gambar']['tmp_name'];
-$folder = '../../assets/img/';
+$folder = '../../../assets/img/';
 $path = $folder . basename($gambar);
 
 if (move_uploaded_file($tmp, $path)) {
     $query = "INSERT INTO pesawat 
-        (nama_pesawat, deskripsi, harga, tipe_pesawat, gambar, kode_pesawat, kapasitas_penumpang, tahun_pembuatan, status, id_bandara_asal)
+        (nama_maskapai, deskripsi, harga, tipe_pesawat, gambar, kode_pesawat, kapasitas_penumpang, tahun_pembuatan, status, id_bandara_asal)
         VALUES ('$nama', '$deskripsi', '$harga', '$tipe_pesawat', '$gambar', '$kode_pesawat', '$kapasitas_penumpang', '$tahun_pembuatan', '$status', '$id_bandara')";
 
     $result = mysqli_query($conn, $query);

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Register</title>
-  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/admin-style.css">
 </head>
 <body class="login-body">
   <div class="login-container">

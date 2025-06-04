@@ -1,5 +1,5 @@
 <?php
-include '../../config/Connection.php';
+include '../../../config/Connection.php';
 $id = $_GET['id'];
 $query = mysqli_query($conn, "SELECT * FROM hotel WHERE id_hotel = '$id'");
 $data = mysqli_fetch_assoc($query);
@@ -10,7 +10,7 @@ $data = mysqli_fetch_assoc($query);
 <head>
   <meta charset="UTF-8">
   <title>Edit Hotel</title>
-  <link rel="stylesheet" href="../../assets/css/admin-style.css">
+  <link rel="stylesheet" href="../../../assets/css/admin-style.css">
   <style>
     .form-group {
       margin-bottom: 10px;

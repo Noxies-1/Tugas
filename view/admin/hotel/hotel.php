@@ -17,14 +17,7 @@ include '../../../config/Connection.php';
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <div class="sidebar">
-    <h2>Menu</h2>
-    <a href="../admin/hotel/hotel.php">🏠 Hotel</a>
-    <a href="pesawat.php">🧸 Pesawat</a>
-    <a href="kerata-api.php">💄 Kereta Api</a>
-    <a href="bus.php">👜 Bus & Trevel</a>
-    <a href="../../controllers/admin/logout.php" class="logout">Logout</a>
-  </div>
+  <?php include '../sidebar.php';?>
 
   <div class="content">
     <h2>Dashboard Hotel</h2>
@@ -59,7 +52,7 @@ include '../../../config/Connection.php';
         <?php $no = 1; while ($row = mysqli_fetch_assoc($hotel)) : ?>
         <tr>
           <td><?= $no++ ?></td>
-          <td><img src="../../../assets/img/ <?=$row['gambar'] ?>" width="80"></td>
+          <td><img src="../../../assets/img/<?= $row['gambar'] ?>" width="100"></td>
           <td><?= $row['nama_hotel'] ?></td>
           <td><?= $row['alamat'] ?></td>
           <td><?=$row['kode_pos']?></td>
