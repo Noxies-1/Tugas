@@ -120,7 +120,60 @@
             color: #007BFF;
             margin-right: 10px;
         }
-
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    .footer {
+    background-color:rgb(33, 41, 50);
+    padding: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+.footer-section h2, .footer-section h3 {
+    color: #00A8E8;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 8px 0;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.partner-btn {
+    background-color: #00A8E8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.payment-partners img {
+    width: 50px;
+    margin: 5px;
+}
+.social-media {
+    display: flex;
+    flex-direction: column;
+}
+.social-media li {
+    margin: 5px 0;
+}
     </style>
 </head>
 <body>
@@ -136,9 +189,10 @@
     <a href="tiket-pesawat.php" >Cara Pesan Tiket Pesawat</a>
     <a href="hotel.php">Cara Pesan Hotel</a>
     <a href="tiket-kereta-api.php" >Cara Pesan Tiket Kereta Api</a>
-    <a href="cara-pembayaran.php"  class="active">Cara Pembayaran</a>
+    <a href="cara-pembayaran.php" class="active">Cara Pembayaran</a>
   </div>
 
+  <h2>Metode Pembayaran</h2>
     <!-- Main Content -->
     <div class="content">
 
@@ -162,7 +216,7 @@
                 <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/05/17/1495001171047-fe68dea7a16facd74cc471d4c4f94ee0.png?tr=q-75" alt="Kartu Kredit" width="250">
             </div>
         </div>
-
+                <h2>Cara Mudah Pembayaran via Kartu Kredit</h2>
         <div class="steps">
             <div class="step">
                 <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/05/17/1495001645033-787d9a1b1598ff96306d9d8f07911f95.png?tr=q-75,w-386" alt="Step 1">
@@ -185,8 +239,48 @@
                 </div>
             </div>
         </div>
-
     </div>
+        <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2><a href="../../index.html" style="text-decoration: none; color: #00A8E8;">Traveloka</a></h2>
+                <button class="partner-btn">Jadi Partner Traveloka</button>
+                <div class="payment-partners">
+                    <img src="../../../assets/img/Visa.jpg" alt="Visa">
+                    <img src="../../../assets/img/MasterCard.png" alt="Mastercard">
+                    <img src="../../../assets/img/BCA.png" alt="BCA">
+                    <img src="../../../assets/img/BNI.jpg" alt="BNI">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Tentang Traveloka</h3>
+                <ul>
+                    <li><a href="../../carapesan/tiket-pesawat.php">Cara Pesan</a></li>
+                    <li><a href="#">Hubungi Kami</a></li>
+                    <li><a href="#">Pusat Bantuan</a></li>
+                    <li><a href="#">Karier</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Produk</h3>
+                <ul>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Tiket Pesawat</a></li>
+                    <li><a href="#">Tiket Kereta Api</a></li>
+                    <li><a href="#">Tiket Bus & Travel</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow kami di</h3>
+                <ul class="social-media">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

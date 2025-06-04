@@ -225,7 +225,7 @@ Anda pun dapat menambahkan asuransi perjalanan ke pesanan hotel Anda.</p>
       <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h2>traveloka</h2>
+                <h2><a href="../../index.html" style="text-decoration: none; color: #00A8E8;">Traveloka</a></h2>
                 <button class="partner-btn">Jadi Partner Traveloka</button>
                 <div class="payment-partners">
                     <img src="../../../assets/img/Visa.jpg" alt="Visa">
