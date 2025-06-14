@@ -12,7 +12,7 @@
 
         /* Hero Section */
         .hero {
-            background-image: url('background-airport.jpg'); /* ganti dengan gambar Anda */
+            background-image: url('../../../../assets/img/carabayar.png'); /* ganti dengan gambar Anda */
             background-size: cover;
             background-position: center;
             height: 400px;
@@ -189,7 +189,7 @@
     <a href="../tiket-pesawat.php" >Cara Pesan Tiket Pesawat</a>
     <a href="../hotel.php">Cara Pesan Hotel</a>
     <a href="../tiket-kereta-api.php" >Cara Pesan Tiket Kereta Api</a>
-    <a href="../cara-pembayaran.php">Cara Pembayaran</a>
+    <a href="../cara-pembayaran.php" class="active">Cara Pembayaran</a>
   </div>
 
   <h2>Metode Pembayaran</h2>

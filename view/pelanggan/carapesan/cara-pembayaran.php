@@ -12,7 +12,7 @@
 
         /* Hero Section */
         .hero {
-            background-image: url('background-airport.jpg'); /* ganti dengan gambar Anda */
+            background-image: url('../../../assets/img/carabayar.png'); /* ganti dengan gambar Anda */
             background-size: cover;
             background-position: center;
             height: 400px;

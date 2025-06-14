@@ -11,7 +11,7 @@
     }
 
     .hero {
-      background: url('airport.jpg') center center/cover no-repeat;
+      background: url('../../../assets/img/tiket hotel.jpg') center center/cover no-repeat;
       height: 400px;
       display: flex;
       flex-direction: column;
@@ -137,15 +137,10 @@
   </style>
 </head>
 <body>
-    <div class="back-button-container">
-    <a href="javascript:history.back()" class="back-button">
-        <i class="fas fa-arrow-left"></i> Kembali
-    </a>
-    </div>
 
   <div class="hero">
-    <h1>Cara Pesan Tiket Pesawat di Traveloka</h1>
-    <p>Booking e-tiket Anda hanya dalam 5 menit!</p>
+    <h1>Cara Pesan Hotel</h1>
+    <p>Panduan memesan voucher hotel dan melakukan pembayaran di Traveloka</p>
   </div>
 
   <div class="nav-tabs">

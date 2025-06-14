@@ -20,7 +20,7 @@ if ($data && password_verify($password, $data['password'])) {
     $_SESSION['nama'] = $data['nama'] ?? 'Pengguna';
 
     // Redirect ke halaman utama
-    header("Location: ../../view/pelanggan/index.html");
+    header("Location: ../../../../Tubes_pwd/view/pelanggan/index.php");
     exit;
 } else {
     echo "<script>alert('Email atau password salah!'); window.location='../../view/pelanggan/login.php';</script>";

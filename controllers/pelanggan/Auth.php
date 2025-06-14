@@ -1,12 +1,12 @@
 <?php
-require_once('Connection.php');
+include '../../config/Connection.php';
 
 class Auth {
     
     private $conn;
 
     public function __construct(){
-        $db = new Connection();
+        $db = new $conn();
         $this->conn = $db->getConnection();
     }
 

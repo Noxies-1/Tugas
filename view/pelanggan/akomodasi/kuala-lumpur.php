@@ -70,41 +70,58 @@
     border: none;
     border-radius: 5px;
 }
-.back-button-container {
-  padding: 20px 30px;
+    .footer {
+    background-color:rgb(33, 41, 50);
+    padding: 20px;
 }
-
-    .back-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+.footer-section h2, .footer-section h3 {
+    color: #00A8E8;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 8px 0;
+}
+.footer-section ul li a {
+    color: white;
     text-decoration: none;
-    background-color: #f0f2f5;
-    color: #333;
-    padding: 10px 18px;
-    border-radius: 8px;
-    font-weight: 600;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: all 0.2s ease-in-out;
-    border: 1px solid #d0d0d0;
-    }
-
-    .back-button:hover {
-    background-color: #dbe4f3;
-    color: #1a73e8;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-    transform: translateY(-1px);
-    }
-
-
+}
+.partner-btn {
+    background-color: #00A8E8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.payment-partners img {
+    width: 50px;
+    margin: 5px;
+}
+.social-media {
+    display: flex;
+    flex-direction: column;
+}
+.social-media li {
+    margin: 5px 0;
+}
 </style>
 <body>
-    <div class="back-button-container">
-    <a href="javascript:history.back()" class="back-button">
-        <i class="fas fa-arrow-left"></i> Kembali
-    </a>
-    </div>
-
     <section class="results">
         <div class="hotel-card">
             <img src="../../../assets/img/Sleeping Lion.jpg" alt="Hotel 1">
@@ -168,6 +185,46 @@
             </div>
         </div>
     </section>
-
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2><a href="../index.php" style="text-decoration: none; color: #00A8E8;">Traveloka</a></h2>
+                <button class="partner-btn">Jadi Partner Traveloka</button>
+                <div class="payment-partners">
+                    <img src="../../../assets/img/Visa.jpg" alt="Visa">
+                    <img src="../../../assets/img/MasterCard.png" alt="Mastercard">
+                    <img src="../../../assets/img/BCA.png" alt="BCA">
+                    <img src="../../../assets/img/BNI.jpg" alt="BNI">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Tentang Traveloka</h3>
+                <ul>
+                    <li><a href="../carapesan/tiket-pesawat.php">Cara Pesan</a></li>
+                    <li><a href="#">Hubungi Kami</a></li>
+                    <li><a href="#">Pusat Bantuan</a></li>
+                    <li><a href="#">Karier</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Produk</h3>
+                <ul>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Tiket Pesawat</a></li>
+                    <li><a href="#">Tiket Kereta Api</a></li>
+                    <li><a href="#">Tiket Bus & Travel</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow kami di</h3>
+                <ul class="social-media">
+                    <li><a href="https://web.facebook.com/profile.php?id=100063583705251&locale=id_ID">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/malik.ar_20/">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@n0xies">TikTok</a></li>
+                    <li><a href="https://www.youtube.com/@malikyeager5769">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -15,7 +15,7 @@ if ($password !== $repassword) {
 // Cek duplikat email
 $cek = mysqli_query($conn, "SELECT * FROM auth WHERE email = '$email'");
 if (mysqli_num_rows($cek) > 0) {
-    echo "<script>alert('Email sudah digunakan!'); window.location='../../view/pelanggan/register.php';</script>";
+    echo "<script>alert('Email sudah digunakan!'); window.location='../../../../Tubes_pwd/view/pelanggan/register.php';</script>";
     exit;
 }
 
@@ -24,5 +24,5 @@ $hash = password_hash($password, PASSWORD_BCRYPT);
 $query = "INSERT INTO auth (id_pengguna, email, password, nama) VALUES (NULL, '$email', '$hash', '$nama')";
 mysqli_query($conn, $query) or die("Query error: " . mysqli_error($conn));
 
-echo "<script>alert('Berhasil mendaftar! Silakan login.'); window.location='../../view/pelanggan/login.php';</script>";
+echo "<script>alert('Berhasil mendaftar! Silakan login.'); window.location='../../../../view/pelanggan/login.php';</script>";
 ?>

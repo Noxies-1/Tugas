@@ -11,7 +11,7 @@
     }
 
     .hero {
-      background: url('airport.jpg') center center/cover no-repeat;
+      background: url('../../../assets/img/tiket pesawat.jpg') center center/cover no-repeat;
       height: 400px;
       display: flex;
       flex-direction: column;

@@ -13,6 +13,6 @@ if ($data && password_verify($password, $data['password'])) {
     header("Location: ../../view/admin/dashboard.php");
     exit;
 } else {
-    echo "<script>alert('Login admin gagal!'); window.location='../../view/admin/login.php';</script>";
+    echo "<script>alert('Login admin gagal!'); window.location='../../view/pelanggan/login.php';</script>";
 }
 ?>

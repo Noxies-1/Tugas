@@ -149,7 +149,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h2>traveloka</h2>
+                <h2><a href="index.php" style="text-decoration: none; color: #00A8E8;">Traveloka</a></h2>
                 <button class="partner-btn">Jadi Partner Traveloka</button>
                 <div class="payment-partners">
                     <img src="../../assets/img/Visa.jpg" alt="Visa">
@@ -161,7 +161,7 @@
             <div class="footer-section">
                 <h3>Tentang Traveloka</h3>
                 <ul>
-                    <li><a href="#">Cara Pesan</a></li>
+                    <li><a href="carapesan/tiket-pesawat.php">Cara Pesan</a></li>
                     <li><a href="#">Hubungi Kami</a></li>
                     <li><a href="#">Pusat Bantuan</a></li>
                     <li><a href="#">Karier</a></li>
@@ -179,10 +179,10 @@
             <div class="footer-section">
                 <h3>Follow kami di</h3>
                 <ul class="social-media">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">TikTok</a></li>
-                    <li><a href="#">YouTube</a></li>
+                    <li><a href="https://web.facebook.com/profile.php?id=100063583705251&locale=id_ID">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/malik.ar_20/">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@n0xies">TikTok</a></li>
+                    <li><a href="https://www.youtube.com/@malikyeager5769">YouTube</a></li>
                 </ul>
             </div>
         </div>

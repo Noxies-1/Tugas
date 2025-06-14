@@ -11,7 +11,7 @@
     }
 
     .hero {
-      background: url('airport.jpg') center center/cover no-repeat;
+      background: url('https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/test-discovery/2024/03/07/dcb05757-4c68-42c4-bcdb-ec16a0690a51-1709798221264-9d77acdf56f41c1f8d1a1d273a22bc22.png') center center/cover no-repeat;
       height: 400px;
       display: flex;
       flex-direction: column;
@@ -139,8 +139,8 @@
 <body>
 
   <div class="hero">
-    <h1>Cara Pesan Tiket Pesawat di Traveloka</h1>
-    <p>Booking e-tiket Anda hanya dalam 5 menit!</p>
+    <h1>Cara Pesan Tiket Kereta Api di Traveloka</h1>
+    <p>Pesan tiket kereta api kapan saja, dari mana saja</p>
   </div>
 
   <div class="nav-tabs">
